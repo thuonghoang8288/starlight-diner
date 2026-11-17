@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Starlight Diner — a cosmic café</title>
+<style>
+  html, body { margin: 0; padding: 0; height: 100%; background: #0b1020; }
+  body { display: flex; align-items: center; justify-content: center; overflow: hidden; }
+  #wrap { position: relative; }
+  canvas { display: block; background: #0b1020; border-radius: 10px;
+           box-shadow: 0 0 60px rgba(90, 140, 255, 0.25); cursor: pointer; }
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="game" width="1280" height="720"></canvas></div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
